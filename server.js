@@ -1,4 +1,5 @@
 const express = require('express')
+require('noodle-it')
 
 const app = express()
 const port = process.env.PORT || 3001
